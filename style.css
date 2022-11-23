@@ -1,0 +1,222 @@
+/* body color */
+body
+{
+  background-color: #EEEAF3;
+}
+
+/* nav bar */
+.navigation
+{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #CBBFFF;
+  horizontal-align: middle;
+  margin: 0px;
+}
+
+/* nav buttons */
+.navbuttons 
+{
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-transform: normal;
+    letter-spacing: normal;
+}
+
+.navbuttons:hover
+{
+  cursor: pointer;
+  color: white;
+}
+
+.signup{
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 19px;
+}
+
+.submit-form {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 19px;
+}
+
+
+/* header */
+.header1
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 55px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+h4
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+h2
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 55px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+/* styling form */ 
+form {
+  display: block;
+}
+
+textarea {
+  height: 100px;
+  width: 300px;
+}
+
+button { 
+  margin-top: 2px;
+  padding: 1em;
+  background-color: #CBBFFF; 
+  color: black; 
+  border-color: #E2DCFC; 
+  border-bottom-color: #E2DCFC; 
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.message {
+  text-align: center;
+  letter-spacing: 0.4px;
+  line-height: 1.2em;
+}
+
+.subscribe {
+  display: block;
+}
+
+/* photos on homepage */
+.homepage
+{
+  color: white;
+  background-color: grey;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* about text */
+.about
+{
+  font-size: 40px;
+}
+
+.students-impacted
+{
+  font-size: 40px;
+}
+
+.how-to-take-action
+{
+  font-size: 40px;
+}
+.abouttext1
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.abouttext2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+}
+
+.ways-to-help-out
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  text-decoration-line: underline;
+  color: purple;
+
+}
+.name {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.email{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.message{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+/* resources links */
+
+.firstrow
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.secondrow
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resources 
+{
+  width: 400px;
+  border: 5px double black;
+}
+
+.text-resources 
+{
+  width: 400px;
+  border: 5px double black;
+  padding: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.resources:hover 
+{
+  border: 5px double #827A8D;
+}
+
+.resources img 
+{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.desc 
+{
+  padding: 15px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}

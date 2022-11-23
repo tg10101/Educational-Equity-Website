@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Educational Equity</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- navigation font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- h1 font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- nav bar -->
+    <ul class = "navigation">
+      <li class = "navbuttons" onclick = "location.href='./index.html'" type = "link">Home</li>
+      <li class = "navbuttons" onclick = "location.href='resources.html'" type = "link">Resources</li>
+      <li class = "navbuttons" onclick = "location.href='getInvolved.html'" type = "link">Get Involved</li>
+    </ul>
+    <!-- header -->
+    <h1 class = "header1"> <u> Get Involved </u> </h1> 
+    <h4>Please, feel free to contact us!</h4> 
+    <br> 
+    <!-- start the form --> 
+     <form contact = "">
+    <div class = "name"> <center> <label for = "form-name">Your Name: </center> </label>
+        &emsp; <center>  <input type="text" name="contact_name" id="form-name" required> </center>
+    </div>
+    <br>
+     <div class = "email"> <center>  <label for = "form-email"> Your Email: 
+     </center> </label>
+        &emsp; <center> <input type = "email" email = "contact_email" id = "form-email" required>
+        </center>
+     </div>
+    <br>
+     <label 
+     <div class = "message"> <center>  <label for= "form-message"> Your Message to us: 
+     </center> </label>
+        &emsp; <center> <textarea id = "message"  placeholder = "Please type a message you'd like to send us" type= "message" <input  message= "contact_message" id="form-message"   required> 
+  </textarea>
+
+  <div class = "signup">
+    <br>
+     <input type = "checkbox" value = "check box">
+    I would like to subscribe to your newsletter for more information. Please subscribe me. 
+  </div>
+
+  <div class = "submit-form" value = "Subscribe" class= "button">
+    <div submission-success>
+      <p class="submit-response">
+         <b> Thank you for reaching out to us! We will be in touch soon. </b>  <br> <u> After you click the "Send Form" button, your form will be submitted. </u>
+      </p>
+    <br>
+  <!-- <input type = "Submit form" value = "Send form" tab-index = '5.0'/> 
+--> 
+    <button id= "submit form"> <center> Send form </center> </button>
+<!-- end the form --> 
+  </form> 
+  <!-- 
+
+   <div class='message'>
+  <div class = "subscribe">
+    <p> <b> Thank you for reaching out to us! We will be in touch soon. </b> </p> 
+  </div> 
+ --> 
+ <p> <i> <br> <center> Some social media pages to help you learn <br> more about the importance of education for all students: </center> </br> </i> </p> 
+  <ul class = "navigation">
+      <li class = "navbuttons" onclick = "location.href = 'https://docs.google.com/document/d/1vPhzmeDpeKKSvj-FsDK8ZOfYKP-3UvduHAEkAA7CCq4/edit?usp=sharing'" type = "link" target="_blank">Facebook</li>
+      <li class = "navbuttons" onclick = "location.href = 'https://docs.google.com/document/d/1Dc4O4TU-q4xPoTTlhnGovUQSfuuHXGtoOsMVqYMwHcs/edit?usp=sharing'" type = "link" target="_blank">Instagram</li>
+      <li class = "navbuttons" onclick = "location.href='https://docs.google.com/document/d/10gx6MGR8CFFox3RjbFmcRdTcaAyFfYZAAFQ0C-JQbdE/edit?usp=sharing'" type = "link" target="_blank">Twitter</li>
+    </ul>
+  </body>
+</html>
